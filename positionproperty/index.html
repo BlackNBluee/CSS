@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position Property</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="box1">
+        <h2>Static</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus, accusantium.</p>
+        <p>second para</p>
+        <footer>Footer</footer>
+    </div>
+
+    <div>
+        <div class="box2">A</div>
+        <div class="box2">B</div>
+        <div class="box2" id="third">relative</div>
+        <div class="box2">D</div>
+    </div>
+
+    <div class="box3">This is fixed</div>
+    <div>
+        <div class="box4">
+            <h2>Static parent</h2>
+        </div>
+    </div>
+
+    <div style="position: relative; margin: 10px;">
+        <div class="box4">
+            <h2> Non-Static parent</h2>
+        </div>
+    </div>
+
+    <div style="height: 2000px;background-color: yellow;">
+        <div class="box5">A</div>
+        <div class="box5" id="second">B</div>
+        <div class="box5">C</div>
+        <div class="box5">D</div>
+    </div>
+</body>
+</html>
