@@ -1,0 +1,11 @@
+h2{
+    text-shadow: 3px 3px 3px red, 9px 9px  4px black;
+}
+
+div{
+    margin: 20px;
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    box-shadow: 5px 5px 5px black, -5px -5px 6px red;
+}

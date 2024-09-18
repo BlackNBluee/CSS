@@ -1,0 +1,57 @@
+.box1{
+    border: 3px solid black;
+    height: 100px;
+    width: 200px;
+    background-image: linear-gradient(rgb(224, 212, 212), rgb(82, 181, 82));
+    margin: 10px;
+}
+.box2{
+    border: 3px solid black;
+    height: 100px;
+    width: 200px;
+    background-image: linear-gradient(to right, rgb(224, 212, 212), rgb(82, 181, 82));
+    margin: 10px;
+}
+.box3{
+    border: 3px solid black;
+    height: 100px;
+    width: 200px;
+    background-image: linear-gradient(to right bottom, rgb(224, 212, 212), rgb(82, 181, 82));
+    margin: 10px;
+}
+.box4{
+    border: 3px solid black;
+    height: 100px;
+    width: 200px;
+    background-image: linear-gradient(45deg, rgb(224, 212, 212), rgb(82, 181, 82));
+    margin: 10px;
+}
+.box5{
+    border: 3px solid black;
+    height: 100px;
+    width: 200px;
+    background-image: linear-gradient(to right, rgb(224, 212, 212), rgb(82, 181, 82),black);
+    margin: 10px;
+}
+.box6{
+    border: 3px solid black;
+    height: 100px;
+    width: 200px;
+    background-image: radial-gradient(rgb(229, 213, 31), rgb(224, 212, 212), rgb(82, 181, 82));
+    margin: 10px;
+}
+.box7{
+    border: 3px solid black;
+    height: 100px;
+    width: 200px;
+    background-image: radial-gradient(circle, rgb(229, 213, 31), rgb(224, 212, 212), rgb(82, 181, 82));
+    margin: 10px;
+}
+.box8{
+    border: 3px solid black;
+    height: 100px;
+    width: 200px;
+    background-image: radial-gradient(circle,yellow 5%, orange 10%, red );
+    margin: 10px;
+}
+
