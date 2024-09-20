@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: grid;
+    background-color: red;
+    border: 3px solid black;
+    height: 800px;
+    width: 100%;
+    /* 'fr' this type distribute content in equal fraction */
+    grid-template-columns: repeat(3, 1fr);
+    /* we can also give size in px, rem,  */
+    grid-template-rows: 100px 100px 1fr 100px;
+    gap: 10px;
+}
+
+.box{
+    background-color: aqua;
+    border: 2px solid black;
+    /* height: 80px;
+    width: 80px; */
+
+}
+
+#box1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1 ;
+    grid-row-end: 3;
+}
