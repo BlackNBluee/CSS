@@ -1,0 +1,29 @@
+.division{
+    display: flex;
+    border: 3px solid green;
+    height: 400px;
+
+    /* flex-direction: row-reverse; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    align-content: space-evenly;
+}
+div>div{
+    border: 2px solid red;
+}
+.box1{
+    order:2;
+    flex-grow:1;
+}
+.box2{
+    order:5;
+}
+.box3{
+    order:9;
+    flex-grow: 1;
+}
+.box4{
+    order:1;
+}
