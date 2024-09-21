@@ -8,7 +8,7 @@
     display: grid;
     background-color: red;
     border: 3px solid black;
-    height: 800px;
+    height: 400px;
     width: 100%;
     /* 'fr' this type distribute content in equal fraction */
     grid-template-columns: repeat(3, 1fr);
@@ -30,4 +30,40 @@
     grid-column-end: 3;
     grid-row-start: 1 ;
     grid-row-end: 3;
+}
+
+/* css for grid-template-area and grid area */
+.container2{
+    display: grid;
+    background-color: aqua;
+    height: 400px;
+    width: 400px;
+    margin: 10px;
+    grid-template-columns: 100px 250px;
+    grid-template-rows: 20px 1fr 1fr 30px;
+    grid-template-areas: 
+    "hd hd"
+    "side main"
+    "side main"
+    "ft ft";
+    gap: 2px;
+}
+
+.container2>div{
+    background-color: red;
+    border: 2px solid black;
+
+}
+
+#b1{
+    grid-area: hd;
+}
+#b2{
+    grid-area: side;
+}
+#b3{
+    grid-area: main;
+}
+#b4{
+    grid-area: ft;
 }
